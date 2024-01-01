@@ -5,7 +5,7 @@ import Color from "colorjs.io";
 import { sans } from "./fonts";
 
 export const metadata = {
-  title: "Random Thoughts",
+  title: "Designing for the Future — A blog by David Rinck",
   description: "A personal blog by David Rinck",
   alternates: {
     types: {

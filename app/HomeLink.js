@@ -27,7 +27,9 @@ export default function HomeLink() {
           color: "transparent",
           transition: "--myColor1 0.2s ease-out, --myColor2 0.2s ease-in-out",
         }}
-      ></span>
+      >
+        Designing for the Future
+      </span>
     </Link>
   );
 }

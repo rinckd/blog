@@ -4,9 +4,7 @@ export default function Layout({ children }) {
   return (
     <>
       {children}
-      <footer className="mt-12">
-        <HomeLink />
-      </footer>
+      <footer className="mt-12"></footer>
     </>
   );
 }

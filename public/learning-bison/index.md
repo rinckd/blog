@@ -6,13 +6,17 @@ spoiler: "More powerful than ARM templates, but it's not Terraform."
 
 After changing jobs this year, I have moved from working with AWS to working with Azure. It's not the first time I've used Azure. My research group in grad school used Azure. Bill Gates himself visited my research advisor and showered us with free credits. It was like being a kid in a candy store.
 
-Returning to the candy store, it felt a little like using the WayBackMachine. The core front end code base appears to still be written in jQuery. Now, I can understand Oracle's business mentality of keeping their UI/UX in the 90's. Nothing says "we are too big to care" better than a GUI from 1980. Azure, though, is supposed to be competing with AWS for cloud domination. It's not a commodity yet, at least for the big players.
+Returning to the candy store, it felt a little like using the WayBackMachine. The core front end code base appears to still be written in jQuery. Now, I can understand Oracle's business mentality of keeping their UI/UX in the 80's. Nothing says "we are too big to care" better than a GUI from 1984. Azure, though, is supposed to be competing with AWS for cloud domination. It's not a commodity yet, at least for the big players.
 
 It's insane that they are advocating for LLMs to take over the work of programmers, but nobody in the organization has figured out how to refactor off of old javascript frameworks in 15 years. AWS / New Relic / Confluent / Google... all these cloud services strive to show real time data and allow a user to quickly get to what is going wrong.
 
 The smell of technical debt is strong on the Azure Side. The Portal is sluggish, you need to press the refresh button to see most updates. The Azure CLI sent me back a web page as an error, because maybe something is written in .NET Framework still? Issues and errors I've seen make me question the back end, and how well Azure is managed as a whole. Articles like these, for example: [Has Microsoft cut security corners once too often?](https://www.computerworld.com/article/3704132/has-microsoft-cut-security-corners-once-too-often.html) and [Microsoft Signing Key Stolen by Chinese](https://www.schneier.com/blog/archives/2023/08/microsoft-signing-key-stolen-by-chinese.html) cut to the core of my concerns.
 
-But, we'll brush those aside, as there are some nice features inside Azure. I focus on Terraform, Powershell, and Bash to design Infrastructure as code, so I can ignore the Azure Portal as much as possible in my everyday work.
+Recently, I have heard from various sources, that AWS might start experiencing these types of 'lights are on, but nobody's home issues.' Justin Garrison's [“Amazon’s Silent Sacking”](https://justingarrison.com/blog/2023-12-30-amazons-silent-sacking/?utm_source=substack&utm_medium=email) and Adrian Cockcroft's [Signs That it's Time to Leave a Company](https://adrianco.medium.com/signs-that-its-time-to-leave-a-company-5f8759ad018e) point to troubles at AWS as well.
+
+These are interesting times we live in, nevertheless the Cloud at this point is a proven type of 'Pattern Language', as Christopher Alexander would say. Though the way problems are solved are different between the cloud providers, the patterns are the same.
+
+There are some nice features inside Azure. I focus on Terraform, Powershell, and Bash to design Infrastructure as code, so I can ignore the Azure Portal as much as possible in my everyday work.
 
 ARM templates are a great way to get started with Azure, but they are not the best way to manage your infrastructure. Having to conform to the JSON specification makes them unwieldy for variables and complex conditional statements.
 
